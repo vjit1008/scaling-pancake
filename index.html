@@ -1,0 +1,43 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+         .employee {
+          text-align:center ;
+          margin-top: 50px;
+         }
+
+      
+
+    </style>
+  </head>
+  <body style="background-image: url(/ht.webp);">
+
+    <div class="employee">
+      <button onclick="PrintDeveloperswithMap()">
+         Developers with Map
+      </button><br><br>
+      <button onclick="PrintDeveloperbyForEach()">
+        Developers with foreach
+      </button><br><br>
+      <button onclick="addData()">New Data with 4th Person</button><br><br>
+      <button onclick="removeAdmin()">Remove Admin</button><br><br>
+      <button onclick="concatenateArray()">concatenateArray</button>
+    </div>
+    
+
+    <div style="display: flex;">
+      <p id="output" style="
+     margin-left:41%; flex-direction: column;background-color: blanchedalmond;">
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
