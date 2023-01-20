@@ -127,10 +127,10 @@ function removeAdmin() {
 function concatenateArray() {
   output.innerHTML = ""
   let arr2 = [
-    { id: 7, name: "sonam", age: "26", profession: "ceo" },
+    { id: 5, name: "sonam", age: "26", profession: "ceo" },
     
-    { id: 9, name: "priyanka", age: "28", profession: "cfo" },
-    { id: 8, name: "vishvajit", age: "28", profession: "developer" },
+    { id: 6, name: "priyanka", age: "28", profession: "cfo" },
+    { id: 7, name: "vishvajit", age: "28", profession: "developer" },
   ];
   let concateBoth = arr.concat(arr2)
   let ans = ""
